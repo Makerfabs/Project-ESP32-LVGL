@@ -84,7 +84,7 @@ void my_page_test1()
   // lv_obj_align(slider_label, slider, LV_ALIGN_OUT_BOTTOM_MID, 0, 10);
 }
 
-void my_page-_test2()
+void my_page_test2()
 {
   lv_obj_t *page1 = lv_page_create(NULL, NULL);
   lv_page_set_scrollbar_mode(page1, LV_SCROLLBAR_MODE_DRAG);

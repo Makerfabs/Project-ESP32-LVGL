@@ -25,7 +25,7 @@ Note:
 
 # Project ESP32 LVGL Demo
 
-## Intruduce
+## Introduce
 
 
 
@@ -173,6 +173,8 @@ lv_obj_align(label, NULL, LV_ALIGN_IN_TOP_MID, 0, 0);
 
 At the top of the page, a paragraph of text is displayed in the center.
 
+![](md_pic/label1.jpg)
+
 #### Example 2
 
 ```c++
@@ -209,7 +211,7 @@ lv_label_set_text(label1_s, lv_label_get_text(label1));
 
 Creates a text scroll bar with a font shadow.
 
-
+![](md_pic/label2.jpg)
 
 ### Image
 
@@ -232,3 +234,7 @@ lv_obj_align(image_logo, NULL, LV_ALIGN_IN_TOP_MID, 0, 20);
 ```
 
 The image that will be converted to a C array is centered at the top of the screen.
+
+
+
+![](md_pic/logo_example.jpg)
